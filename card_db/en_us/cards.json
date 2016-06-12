@@ -1561,11 +1561,22 @@
    "Action"
   ]
  },
+  {
+  "cardset": "promo",
+  "cost": "5",
+  "description": "Gain an Action card costing up to 4 coins. Set it aside. If you do, then at the start of your next turn, play it.",
+  "extra": "When you buy this, you gain an Action card costing up to 4 coins from the Supply and set it aside face up.\nIf you did set it aside, then at the start of your next turn, play that Action card. This doesn't use up your default Action for the turn.\nIn order to remember to play the card on your next turn, you may want to turn it sideways or diagonally, turning it right side up when you play it.\nIf you move the Action card after you gain it but before you set it aside (e.g. by putting it on top of your deck with WatchtowerWatchtower.jpg, from Dominion: Prosperity), then Summon will ''lose track'' of it and be unable to set it aside; in that case you will not play it at the start of your next turn.\nIf you use Summon to gain a Nomad CampNomad Camp.jpg (from Dominion: Hinterlands), Summon will know to find the Nomad Camp on your deck, so you will set it aside in that case (unless you have moved it elsewhere via another ability).",
+  "name": "Summon",
+  "potcost": 0,
+  "types": [
+   "Event"
+  ]
+ },
  {
   "cardset": "base",
   "cost": "0",
-  "description": "Worth 1 Coin.",
-  "extra": " 60 cards per game.",
+  "description": "32 Copper\n\n\nWorth 1 Coin.",
+  "extra": " 60 cards per game (32 without start cards).",
   "name": "Copper",
   "potcost": 0,
   "types": [
@@ -1575,7 +1586,7 @@
  {
   "cardset": "base",
   "cost": "3",
-  "description": "Worth 2 Coins.",
+  "description": "40 Silver\n\n\nWorth 2 Coins.",
   "extra": " 40 cards per game.",
   "name": "Silver",
   "potcost": 0,
@@ -1586,7 +1597,7 @@
  {
   "cardset": "base",
   "cost": "6",
-  "description": "Worth 3 Coins.",
+  "description": "30 Gold\n\n\nWorth 3 Coins.",
   "extra": " 30 cards per game.",
   "name": "Gold",
   "potcost": 0,
@@ -1597,7 +1608,7 @@
  {
   "cardset": "base",
   "cost": "9",
-  "description": "Worth 5 Coins.",
+  "description": "12 Platinum\n\n\nWorth 5 Coins.",
   "extra": " This is not a Kingdom card. You do not use it every game. It is a Treasure worth 5 coins.  If only Kingdom cards from Prosperity are being used this game, then the Platinum and Colony piles are added to the Basic cards in the Supply for the game. If a mix of Kingdom cards from Prosperity and other sets are being used, then the inclusion of Platinum and Colony in the Supply should be determined randomly, based on the proportion of Prosperity and non-Prosperity cards in use. For example, choose a random Kingdom card being used - such as the first card dealt out from the Randomizer deck [this is equivalent to rolling a d10 or choosing a card at random after all 10 have been selected] - and if it is from Prosperity, add Platinum and Colony to the Supply. Platinum and Colony are not Kingdom cards; when those are included, there are 10 Kingdom cards, plus Copper, Silver, Gold, Platinum, Estate, Duchy, Province, Colony, and Curse, in the Supply. Use 8 Colonies for a 2-player game, or 12 Colonies for a game with 3 or more players. [Use all 12 Platinum regardless of the number of players. Platinum and Colony are meant to be used together and both or neither should be used, not one or the other.]",
   "name": "Platinum",
   "potcost": 0,
@@ -1608,7 +1619,7 @@
  {
   "cardset": "base",
   "cost": "4",
-  "description": "Worth 1 Potion.",
+  "description": "16 Potion\n\n\nWorth 1 Potion.",
   "extra": " This is a basic Treasure card. It costs 4 Coins and produces Potion. It is not a Kingdom card.  After you choose 10 Kingdom cards for the Supply, if any of them have Potion in the cost, add the Potion pile to the Supply. Also add the Potion pile if you are using the promotional card Black Market, and the Black Market deck includes at least one card with Potion in the cost. If you don't have any cards with Potion in the cost in the Supply or the Black Market deck, do not use the Potion pile in this game. When you have a Potion pile, put all 16 Potions in it, no matter how many players there are. In games using this pile, if the pile becomes empty, that will count towards the game ending condition.",
   "name": "Potion",
   "potcost": 0,
@@ -1619,9 +1630,31 @@
  {
   "cardset": "base",
   "cost": "0",
-  "description": "-1 <VP>",
+  "description": "10 Curse\n\n\n-1 <VP>",
   "extra": " Curses are an available pile in the Supply regardless of what other cards are in the Supply.  With 2 players, place 10 Curses in the Supply.  With 3 players, place 20 Curses in the Supply.  With 4 players, place 30 Curses in the Supply.  With 5 players, place 40 Curses in the Supply.  With 6 players, place 50 Curses in the Supply.",
-  "name": "Curse",
+  "name": "Curse (2p)",
+  "potcost": 0,
+  "types": [
+   "Curse"
+  ]
+ },
+  {
+  "cardset": "base",
+  "cost": "0",
+  "description": "10 Curse\n\n\n-1 <VP>",
+  "extra": " Curses are an available pile in the Supply regardless of what other cards are in the Supply.  With 2 players, place 10 Curses in the Supply.  With 3 players, place 20 Curses in the Supply.  With 4 players, place 30 Curses in the Supply.  With 5 players, place 40 Curses in the Supply.  With 6 players, place 50 Curses in the Supply.",
+  "name": "Curse (3p)",
+  "potcost": 0,
+  "types": [
+   "Curse"
+  ]
+ },
+  {
+  "cardset": "base",
+  "cost": "0",
+  "description": "10 Curse\n\n\n-1 <VP>",
+  "extra": " Curses are an available pile in the Supply regardless of what other cards are in the Supply.  With 2 players, place 10 Curses in the Supply.  With 3 players, place 20 Curses in the Supply.  With 4 players, place 30 Curses in the Supply.  With 5 players, place 40 Curses in the Supply.  With 6 players, place 50 Curses in the Supply.",
+  "name": "Curse (4p)",
   "potcost": 0,
   "types": [
    "Curse"
@@ -1630,9 +1663,20 @@
  {
   "cardset": "base",
   "cost": "2",
-  "description": "1 <VP>",
+  "description": "8 Estate\n\n\n1 <VP>",
   "extra": " Put 8 in the Supply in a game with two players.  Put 12 in the Supply in a game with three or more players.",
-  "name": "Estate",
+  "name": "Estate (2p)",
+  "potcost": 0,
+  "types": [
+   "Victory"
+  ]
+ },
+ {
+  "cardset": "base",
+  "cost": "2",
+  "description": "4 Estate\n\n\n1 <VP>",
+  "extra": " Put 8 in the Supply in a game with two players.  Put 12 in the Supply in a game with three or more players.",
+  "name": "Estate (3p-4p)",
   "potcost": 0,
   "types": [
    "Victory"
@@ -1641,9 +1685,20 @@
  {
   "cardset": "base",
   "cost": "5",
-  "description": "3 <VP>",
+  "description": "8 Duchy\n\n\n3 <VP>",
   "extra": " Put 8 in the Supply in a game with two players.  Put 12 in the Supply in a game with three or more players.",
-  "name": "Duchy",
+  "name": "Duchy (2p)",
+  "potcost": 0,
+  "types": [
+   "Victory"
+  ]
+ },
+  {
+  "cardset": "base",
+  "cost": "5",
+  "description": "4 Duchy\n\n\n3 <VP>",
+  "extra": " Put 8 in the Supply in a game with two players.  Put 12 in the Supply in a game with three or more players.",
+  "name": "Duchy (3p-4p)",
   "potcost": 0,
   "types": [
    "Victory"
@@ -1652,9 +1707,20 @@
  {
   "cardset": "base",
   "cost": "8",
-  "description": "6 <VP>",
+  "description": "8 Province\n\n\n6 <VP>",
   "extra": " Put 8 in the Supply in a game with two players.  Put 12 in the Supply in a game with three or four players. Put 15 in the Supply in a game with five players.  Put 18 in the Supply in a game with six players.",
-  "name": "Province",
+  "name": "Province (2p)",
+  "potcost": 0,
+  "types": [
+   "Victory"
+  ]
+ },
+  {
+  "cardset": "base",
+  "cost": "8",
+  "description": "4 Province\n\n\n6 <VP>",
+  "extra": " Put 8 in the Supply in a game with two players.  Put 12 in the Supply in a game with three or four players. Put 15 in the Supply in a game with five players.  Put 18 in the Supply in a game with six players.",
+  "name": "Province (3p-4p)",
   "potcost": 0,
   "types": [
    "Victory"
@@ -1663,9 +1729,20 @@
  {
   "cardset": "base",
   "cost": "11",
-  "description": "10 <VP>",
+  "description": "8 Colony\n\n\n10 <VP>",
   "extra": " This is not a Kingdom card. You do not use it every game. It is a Victory card worth 10 VP.  If only Kingdom cards from Prosperity are being used this game, then the Platinum and Colony piles are added to the Basic cards in the Supply for the game. If a mix of Kingdom cards from Prosperity and other sets are being used, then the inclusion of Platinum and Colony in the Supply should be determined randomly, based on the proportion of Prosperity and non-Prosperity cards in use. For example, choose a random Kingdom card being used - such as the first card dealt out from the Randomizer deck [this is equivalent to rolling a d10 or choosing a card at random after all 10 have been selected] - and if it is from Prosperity, add Platinum and Colony to the Supply. Platinum and Colony are not Kingdom cards; when those are included, there are 10 Kingdom cards, plus Copper, Silver, Gold, Platinum, Estate, Duchy, Province, Colony, and Curse, in the Supply. Use 8 Colonies for a 2-player game, or 12 Colonies for a game with 3 or more players. [Use all 12 Platinum regardless of the number of players. Platinum and Colony are meant to be used together and both or neither should be used, not one or the other.]",
-  "name": "Colony",
+  "name": "Colony (2p)",
+  "potcost": 0,
+  "types": [
+   "Victory"
+  ]
+ },
+  {
+  "cardset": "base",
+  "cost": "11",
+  "description": "4 Colony\n\n\n10 <VP>",
+  "extra": " This is not a Kingdom card. You do not use it every game. It is a Victory card worth 10 VP.  If only Kingdom cards from Prosperity are being used this game, then the Platinum and Colony piles are added to the Basic cards in the Supply for the game. If a mix of Kingdom cards from Prosperity and other sets are being used, then the inclusion of Platinum and Colony in the Supply should be determined randomly, based on the proportion of Prosperity and non-Prosperity cards in use. For example, choose a random Kingdom card being used - such as the first card dealt out from the Randomizer deck [this is equivalent to rolling a d10 or choosing a card at random after all 10 have been selected] - and if it is from Prosperity, add Platinum and Colony to the Supply. Platinum and Colony are not Kingdom cards; when those are included, there are 10 Kingdom cards, plus Copper, Silver, Gold, Platinum, Estate, Duchy, Province, Colony, and Curse, in the Supply. Use 8 Colonies for a 2-player game, or 12 Colonies for a game with 3 or more players. [Use all 12 Platinum regardless of the number of players. Platinum and Colony are meant to be used together and both or neither should be used, not one or the other.]",
+  "name": "Colony (3p-4p)",
   "potcost": 0,
   "types": [
    "Victory"
@@ -1680,6 +1757,54 @@
   "potcost": 0,
   "types": [
    "Action"
+  ]
+ },
+  {
+  "cardset": "base",
+  "cost": "0",
+  "description": "7 Copper\n3 Estate",
+  "extra": "",
+  "name": "Player 1 start cards",
+  "potcost": 0,
+  "types": [
+   "Treasure",
+   "Victory"
+  ]
+ },
+   {
+  "cardset": "base",
+  "cost": "0",
+  "description": "7 Copper\n3 Estate",
+  "extra": "",
+  "name": "Player 2 start cards",
+  "potcost": 0,
+  "types": [
+   "Treasure",
+   "Victory"
+  ]
+ },
+   {
+  "cardset": "base",
+  "cost": "0",
+  "description": "7 Copper\n3 Estate",
+  "extra": "",
+  "name": "Player 3 start cards",
+  "potcost": 0,
+  "types": [
+   "Treasure",
+   "Victory"
+  ]
+ },
+   {
+  "cardset": "base",
+  "cost": "0",
+  "description": "7 Copper\n3 Estate",
+  "extra": "",
+  "name": "Player 4 start cards",
+  "potcost": 0,
+  "types": [
+   "Treasure",
+   "Victory"
   ]
  },
  {
@@ -2196,9 +2321,33 @@
  {
   "cardset": "dark ages",
   "cost": "0",
-  "description": "Abandoned Mine: +1 Coin\nRuined Library: +1 Card\nRuined Market: +1 Buy\nRuined Village: +1 Action\nSurvivors: Look at the top 2 cards of your deck. Discard them or put them back in any order.",
+  "description": "10 cards (2 of each)\n\n\nAbandoned Mine: +1 Coin\nRuined Library: +1 Card\nRuined Market: +1 Buy\nRuined Village: +1 Action\nSurvivors: Look at the top 2 cards of your deck. Discard them or put them back in any order.",
   "extra": " See Additional Rules for Dark Ages and Preparation. Abandoned Mine: When you play this, you just get +1 Coin. Ruined Library: When you play this, you draw a card. Ruined Market: When you play this, you just get +1 Buy. Ruined Village: When you play this, you just get +1 Action. Survivors: You either discard both cards, or put both cards back on top; you cannot just discard one card.",
-  "name": "Ruins",
+  "name": "Ruins (2p)",
+  "potcost": 0,
+  "types": [
+   "Action",
+   "Ruins"
+  ]
+ },
+  {
+  "cardset": "dark ages",
+  "cost": "0",
+  "description": "10 cards (2 of each)\n\n\nAbandoned Mine: +1 Coin\nRuined Library: +1 Card\nRuined Market: +1 Buy\nRuined Village: +1 Action\nSurvivors: Look at the top 2 cards of your deck. Discard them or put them back in any order.",
+  "extra": " See Additional Rules for Dark Ages and Preparation. Abandoned Mine: When you play this, you just get +1 Coin. Ruined Library: When you play this, you draw a card. Ruined Market: When you play this, you just get +1 Buy. Ruined Village: When you play this, you just get +1 Action. Survivors: You either discard both cards, or put both cards back on top; you cannot just discard one card.",
+  "name": "Ruins (3p)",
+  "potcost": 0,
+  "types": [
+   "Action",
+   "Ruins"
+  ]
+ },
+  {
+  "cardset": "dark ages",
+  "cost": "0",
+  "description": "10 cards (2 of each)\n\n\nAbandoned Mine: +1 Coin\nRuined Library: +1 Card\nRuined Market: +1 Buy\nRuined Village: +1 Action\nSurvivors: Look at the top 2 cards of your deck. Discard them or put them back in any order.",
+  "extra": " See Additional Rules for Dark Ages and Preparation. Abandoned Mine: When you play this, you just get +1 Coin. Ruined Library: When you play this, you draw a card. Ruined Market: When you play this, you just get +1 Buy. Ruined Village: When you play this, you just get +1 Action. Survivors: You either discard both cards, or put both cards back on top; you cannot just discard one card.",
+  "name": "Ruins (4p)",
   "potcost": 0,
   "types": [
    "Action",

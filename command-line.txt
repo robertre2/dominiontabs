@@ -1,0 +1,1 @@
+python dominion_dividers.py  --no-page-footer --papersize=A4 --expansions="base" --expansions="adventures" --expansions="promo" --expansions="dark ages" --sleeved --minmargin=0.7x0.7
