@@ -29,7 +29,7 @@ promoImages = {
     'black market': 'black_market_set.png',
     'envoy': 'envoy_set.png',
     'prince': 'prince_set.png',
-    "summon": 'summon_set.png'
+    'summon': 'summon_set.png'
 }
 
 setTextIcons = {
